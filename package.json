@@ -1,0 +1,27 @@
+{
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "name": "seed-redis",
+  "description": "Store your seed sets in Riak",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qualiancy/seed-riak.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "riak-js": "0.4.x",
+    "debug": "0.6.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "seed": "0.2.x",
+    "matcha": "0.1.x"
+  }
+}
