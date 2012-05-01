@@ -1,6 +1,6 @@
 {
   "author": "Veselin Todorov <hi@vesln.com>",
-  "name": "seed-redis",
+  "name": "seed-riak",
   "description": "Store your seed sets in Riak",
   "version": "0.1.0",
   "repository": {
