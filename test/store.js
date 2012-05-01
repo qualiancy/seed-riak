@@ -38,7 +38,10 @@ describe('Seed RiakStore', function () {
     it('should allow for removal', function (done) {
       arthur.destroy(function (err) {
         should.not.exist(err);
-        done();
+        arthur.fetch(function (err) {
+          err.should.be.ok;
+          done();
+        });
       });
     });
   });
