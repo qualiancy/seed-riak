@@ -15,8 +15,7 @@
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "riak-js": "0.4.x",
-    "debug": "0.6.x"
+    "joyentriak": "0.4.x"
   },
   "devDependencies": {
     "mocha": "*",
